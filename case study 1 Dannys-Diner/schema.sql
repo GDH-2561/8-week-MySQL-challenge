@@ -28,7 +28,7 @@ values
 
 create table menu(
   product_id int,
-  product_name varchar(5)
+  product_name varchar(5)，
   price int);
 
 insert into menu
