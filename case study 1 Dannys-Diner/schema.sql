@@ -28,7 +28,7 @@ values
 
 create table menu(
   product_id int,
-  product_name varchar(5)，
+  product_name varchar(5),
   price int);
 
 insert into menu
@@ -42,7 +42,7 @@ create table members(
   customer_id varchar(1),
   join_date date);
 
-insert into member
+insert into members
 (customer_id,join_date)
 values
 ('A','2021-01-07'),
